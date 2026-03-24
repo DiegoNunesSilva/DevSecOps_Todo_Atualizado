@@ -1,27 +1,13 @@
-# DevSecOps Todo API
+# DevSecOps Todo Atualizado
 
-Sistema de gerenciamento de tarefas desenvolvido em **Flask + SQLite**, criado como parte de um estudo prático de **DevSecOps** e evoluído para um projeto real que pode ser apresentado em entrevistas.
-
----
-
-## 🚀 Funcionalidades
-- CRUD completo de tarefas (Criar, Listar, Atualizar, Deletar).
-- Cada tarefa possui:
-  - `id` (identificador único)
-  - `titulo` (descrição da tarefa)
-  - `status` (pendente, concluída, etc.)
-- API RESTful com endpoints JSON.
-- Preparado para integração futura com:
-  - Docker
-  - Kubernetes
-  - Grafana/Prometheus
-  - Terraform
+Aplicação **Flask** containerizada com **Docker Compose**, desenvolvida para gerenciar tarefas (Todo App).  
+Este projeto faz parte de práticas de **DevSecOps**, integrando desenvolvimento, segurança e operações.
 
 ---
 
-## 📦 Instalação
+## 🚀 Como executar
 
-### 1. Clonar o repositório
-```bash
-git clone git@github.com:DiegoNunesSilva/DevSecOps_Todo.git
-cd DevSecOps_Todo
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/DiegoNunesSilva/DevSecOps_Todo_Atualizado.git
+   cd DevSecOps_Todo_Atualizado
